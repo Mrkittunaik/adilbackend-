@@ -1,0 +1,646 @@
+{
+ "PRODUCTS": [
+  {
+   "id": "p01",
+   "name": "Executive Comfort Chair",
+   "category": "Office Chair",
+   "group": "office",
+   "price": 14999,
+   "img": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "PU Leather",
+   "color": "Black",
+   "desc": "A high-back executive chair built for long work sessions, with lumbar support and smooth-glide casters."
+  },
+  {
+   "id": "p02",
+   "name": "ErgoPro High Back Chair",
+   "category": "Office Chair",
+   "group": "office",
+   "price": 18499,
+   "img": "https://images.unsplash.com/photo-1505797149-0d5a67e2fdf0?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.7,
+   "material": "Mesh",
+   "color": "Grey",
+   "desc": "Breathable mesh back with adjustable armrests and tilt-lock mechanism for all-day ergonomic support."
+  },
+  {
+   "id": "p03",
+   "name": "Prime Leather Executive Chair",
+   "category": "Office Chair",
+   "group": "office",
+   "price": 22999,
+   "img": "https://images.unsplash.com/photo-1541558869434-2840d308329a?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.8,
+   "material": "Genuine Leather",
+   "color": "Cognac",
+   "desc": "Premium leather executive seating with a reclining function and padded headrest."
+  },
+  {
+   "id": "p04",
+   "name": "WorkSpace Ergonomic Chair",
+   "category": "Office Chair",
+   "group": "office",
+   "price": 16999,
+   "img": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.5,
+   "material": "Mesh",
+   "color": "Charcoal",
+   "desc": "Ergonomic mesh chair engineered for spinal alignment during extended desk work."
+  },
+  {
+   "id": "p05",
+   "name": "Executive Walnut Desk",
+   "category": "Office Desk",
+   "group": "office",
+   "price": 34999,
+   "img": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.7,
+   "material": "Walnut Veneer",
+   "color": "Walnut",
+   "desc": "A commanding executive desk in walnut veneer with integrated cable management."
+  },
+  {
+   "id": "p06",
+   "name": "Large Office Workstation",
+   "category": "Office Table",
+   "group": "office",
+   "price": 49999,
+   "img": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "Engineered Wood",
+   "color": "Oak",
+   "desc": "Spacious workstation designed for dual-monitor setups and daily productivity."
+  },
+  {
+   "id": "p07",
+   "name": "Boardroom Conference Table (6-Seater)",
+   "category": "Conference Table",
+   "group": "office",
+   "price": 64999,
+   "img": "https://images.unsplash.com/photo-1517502884422-41eaead166d4?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.8,
+   "material": "Oak Veneer",
+   "color": "Oak",
+   "desc": "A 6-seater conference table with a clean silhouette suited for modern boardrooms."
+  },
+  {
+   "id": "p08",
+   "name": "Grand Boardroom Table (8-Seater)",
+   "category": "Conference Table",
+   "group": "office",
+   "price": 84999,
+   "img": "https://images.unsplash.com/photo-1517502884422-41eaead166d4?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.9,
+   "material": "Oak Veneer",
+   "color": "Oak",
+   "desc": "An 8-seater conference table built for larger meeting rooms and collaborative spaces."
+  },
+  {
+   "id": "p09",
+   "name": "Professional Office Storage Unit",
+   "category": "Storage",
+   "group": "office",
+   "price": 21999,
+   "img": "https://images.unsplash.com/photo-1594620302200-9a762244a156?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.4,
+   "material": "Engineered Wood",
+   "color": "White Oak",
+   "desc": "Lockable storage cabinet for organized, clutter-free workspaces."
+  },
+  {
+   "id": "p10",
+   "name": "Office Side Table",
+   "category": "Side Table",
+   "group": "office",
+   "price": 8999,
+   "img": "https://images.unsplash.com/photo-1499933374294-4584851497cc?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.3,
+   "material": "Solid Wood",
+   "color": "Natural",
+   "desc": "A compact side table for laptops, files, or a quiet coffee break."
+  },
+  {
+   "id": "p11",
+   "name": "Reception Welcome Desk",
+   "category": "Reception Desk",
+   "group": "office",
+   "price": 54999,
+   "img": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "Laminate",
+   "color": "White",
+   "desc": "A striking reception desk that sets the tone for your office entrance."
+  },
+  {
+   "id": "p12",
+   "name": "Office Bookshelf",
+   "category": "Storage",
+   "group": "office",
+   "price": 17999,
+   "img": "https://images.unsplash.com/photo-1594620302200-9a762244a156?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.5,
+   "material": "Engineered Wood",
+   "color": "Walnut",
+   "desc": "Open-shelf bookcase for files, books, and workspace decor."
+  },
+  {
+   "id": "p13",
+   "name": "Pro Gaming Chair",
+   "category": "Gaming Chair",
+   "group": "gaming",
+   "price": 19999,
+   "img": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "PU Leather",
+   "color": "Black/Red",
+   "desc": "Racing-inspired gaming chair with reclining backrest and lumbar cushion."
+  },
+  {
+   "id": "p14",
+   "name": "Elite RGB Gaming Desk",
+   "category": "Gaming Desk",
+   "group": "gaming",
+   "price": 27999,
+   "img": "https://images.unsplash.com/photo-1598550473359-433e8c76d97a?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.5,
+   "material": "Carbon Fiber Finish",
+   "color": "Black",
+   "desc": "A gaming desk with built-in RGB lighting and cable routing channels."
+  },
+  {
+   "id": "p15",
+   "name": "Command Gaming Workstation",
+   "category": "Gaming Desk",
+   "group": "gaming",
+   "price": 32999,
+   "img": "https://images.unsplash.com/photo-1592155931584-901ac15763e3?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.7,
+   "material": "Steel Frame",
+   "color": "Black",
+   "desc": "A large gaming workstation built for multi-monitor battle stations."
+  },
+  {
+   "id": "p16",
+   "name": "L-Shape Gaming Desk",
+   "category": "Gaming Desk",
+   "group": "gaming",
+   "price": 29999,
+   "img": "https://images.unsplash.com/photo-1598550473359-433e8c76d97a?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "MDF",
+   "color": "Black",
+   "desc": "Corner-fit L-shaped desk that maximizes setup space."
+  },
+  {
+   "id": "p17",
+   "name": "Dual Monitor Battle Desk",
+   "category": "Gaming Desk",
+   "group": "gaming",
+   "price": 24999,
+   "img": "https://images.unsplash.com/photo-1592155931584-901ac15763e3?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.4,
+   "material": "MDF",
+   "color": "Black",
+   "desc": "Compact desk purpose-built for dual-monitor gaming rigs."
+  },
+  {
+   "id": "p18",
+   "name": "Gaming Storage Unit",
+   "category": "Storage",
+   "group": "gaming",
+   "price": 12999,
+   "img": "https://images.unsplash.com/photo-1594620302200-9a762244a156?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.3,
+   "material": "Engineered Wood",
+   "color": "Black",
+   "desc": "Console and accessory storage designed for gaming setups."
+  },
+  {
+   "id": "p19",
+   "name": "Gaming Recliner",
+   "category": "Gaming Chair",
+   "group": "gaming",
+   "price": 23999,
+   "img": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.5,
+   "material": "PU Leather",
+   "color": "Black/Blue",
+   "desc": "Full-recline gaming chair with footrest for marathon sessions."
+  },
+  {
+   "id": "p20",
+   "name": "Luxury Modular Sofa",
+   "category": "Sofa",
+   "group": "sofas",
+   "price": 74999,
+   "img": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.8,
+   "material": "Fabric",
+   "color": "Beige",
+   "desc": "A modular sofa that adapts to your living room, upholstered in soft woven fabric."
+  },
+  {
+   "id": "p21",
+   "name": "Scandinavian 3-Seater Sofa",
+   "category": "Sofa",
+   "group": "sofas",
+   "price": 58999,
+   "img": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "Linen",
+   "color": "Grey",
+   "desc": "Clean-lined three-seater sofa with tapered wooden legs."
+  },
+  {
+   "id": "p22",
+   "name": "Classic Tufted Sofa",
+   "category": "Sofa",
+   "group": "sofas",
+   "price": 62999,
+   "img": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.7,
+   "material": "Velvet",
+   "color": "Charcoal",
+   "desc": "Tufted-back sofa that pairs comfort with timeless detailing."
+  },
+  {
+   "id": "p23",
+   "name": "Modern Lounge Chair",
+   "category": "Lounge Chair",
+   "group": "sofas",
+   "price": 27999,
+   "img": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "Leather",
+   "color": "Tan",
+   "desc": "A statement lounge chair for reading corners and living spaces."
+  },
+  {
+   "id": "p24",
+   "name": "Curved Accent Chair",
+   "category": "Accent Chair",
+   "group": "sofas",
+   "price": 19999,
+   "img": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.4,
+   "material": "Boucle",
+   "color": "Cream",
+   "desc": "Softly curved accent chair that adds texture to any room."
+  },
+  {
+   "id": "p25",
+   "name": "Wood Frame Lounge Chair",
+   "category": "Lounge Chair",
+   "group": "sofas",
+   "price": 24999,
+   "img": "https://images.unsplash.com/photo-1586158291800-2665f07bba79?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.5,
+   "material": "Solid Wood + Fabric",
+   "color": "Natural",
+   "desc": "Warm wood-framed lounge seating with a relaxed silhouette."
+  },
+  {
+   "id": "p26",
+   "name": "Modern Coffee Table",
+   "category": "Coffee Table",
+   "group": "tables",
+   "price": 13999,
+   "img": "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.5,
+   "material": "Solid Wood",
+   "color": "Walnut",
+   "desc": "A low-profile coffee table with clean, minimal lines."
+  },
+  {
+   "id": "p27",
+   "name": "Round Marble-Top Coffee Table",
+   "category": "Coffee Table",
+   "group": "tables",
+   "price": 21999,
+   "img": "https://images.unsplash.com/photo-1499933374294-4584851497cc?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "Marble + Metal",
+   "color": "White/Gold",
+   "desc": "Round coffee table with a marble top and slender metal legs."
+  },
+  {
+   "id": "p28",
+   "name": "Premium L-Shaped Work Desk",
+   "category": "Workstation",
+   "group": "tables",
+   "price": 38999,
+   "img": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "Engineered Wood",
+   "color": "Oak",
+   "desc": "An L-shaped desk that maximizes corner space for focused work."
+  },
+  {
+   "id": "p29",
+   "name": "Modular Workstation",
+   "category": "Workstation",
+   "group": "tables",
+   "price": 41999,
+   "img": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.5,
+   "material": "Engineered Wood",
+   "color": "White",
+   "desc": "A modular desk system that scales with your team."
+  },
+  {
+   "id": "p30",
+   "name": "Round Dining Table (6-Seater)",
+   "category": "Dining Table",
+   "group": "tables",
+   "price": 47999,
+   "img": "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.7,
+   "material": "Solid Wood",
+   "color": "Natural",
+   "desc": "A round dining table crafted for family gatherings."
+  },
+  {
+   "id": "p31",
+   "name": "Extendable Dining Table",
+   "category": "Dining Table",
+   "group": "tables",
+   "price": 52999,
+   "img": "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "Oak",
+   "color": "Oak",
+   "desc": "Extendable dining table that grows from 4 to 8 seats."
+  },
+  {
+   "id": "p32",
+   "name": "Upholstered Platform Bed",
+   "category": "Bed",
+   "group": "bedroom",
+   "price": 44999,
+   "img": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.7,
+   "material": "Fabric + Wood",
+   "color": "Grey",
+   "desc": "A platform bed with an upholstered headboard for a soft, modern bedroom."
+  },
+  {
+   "id": "p33",
+   "name": "Solid Wood Bed Frame",
+   "category": "Bed",
+   "group": "bedroom",
+   "price": 38999,
+   "img": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "Solid Wood",
+   "color": "Walnut",
+   "desc": "A sturdy solid-wood bed frame with a minimal profile."
+  },
+  {
+   "id": "p34",
+   "name": "3-Door Wardrobe",
+   "category": "Storage",
+   "group": "bedroom",
+   "price": 34999,
+   "img": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.5,
+   "material": "Engineered Wood",
+   "color": "White",
+   "desc": "Spacious three-door wardrobe with internal shelving and hanging space."
+  },
+  {
+   "id": "p35",
+   "name": "Bedside Table",
+   "category": "Side Table",
+   "group": "bedroom",
+   "price": 6999,
+   "img": "https://images.unsplash.com/photo-1499933374294-4584851497cc?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.3,
+   "material": "Solid Wood",
+   "color": "Natural",
+   "desc": "Compact bedside table with a single drawer."
+  },
+  {
+   "id": "p36",
+   "name": "Curved Dining Chair",
+   "category": "Dining Chair",
+   "group": "dining",
+   "price": 8999,
+   "img": "https://images.unsplash.com/photo-1503602642458-232111445657?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.4,
+   "material": "Wood + Fabric",
+   "color": "Beige",
+   "desc": "Ergonomically curved dining chair for everyday comfort."
+  },
+  {
+   "id": "p37",
+   "name": "Set of 4 Dining Chairs",
+   "category": "Dining Chair",
+   "group": "dining",
+   "price": 32999,
+   "img": "https://images.unsplash.com/photo-1503602642458-232111445657?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.5,
+   "material": "Wood + Fabric",
+   "color": "Beige",
+   "desc": "A matched set of four dining chairs for your table."
+  },
+  {
+   "id": "p38",
+   "name": "Arc Floor Lamp",
+   "category": "Floor Lamp",
+   "group": "lighting",
+   "price": 11999,
+   "img": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.5,
+   "material": "Metal",
+   "color": "Black",
+   "desc": "An arched floor lamp that casts warm, ambient light."
+  },
+  {
+   "id": "p39",
+   "name": "Pendant Cluster Light",
+   "category": "Pendant Light",
+   "group": "lighting",
+   "price": 15999,
+   "img": "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "Glass + Brass",
+   "color": "Brass",
+   "desc": "A cluster pendant light for dining tables and kitchen islands."
+  },
+  {
+   "id": "p40",
+   "name": "Rattan Outdoor Sofa Set",
+   "category": "Outdoor Sofa",
+   "group": "outdoor",
+   "price": 68999,
+   "img": "https://images.unsplash.com/photo-1600607687644-c7531e489ece?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.6,
+   "material": "Rattan",
+   "color": "Natural",
+   "desc": "Weather-resistant rattan sofa set for patios and gardens."
+  },
+  {
+   "id": "p41",
+   "name": "Teak Outdoor Dining Set",
+   "category": "Outdoor Dining",
+   "group": "outdoor",
+   "price": 58999,
+   "img": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.5,
+   "material": "Teak Wood",
+   "color": "Natural",
+   "desc": "Durable teak dining set built for outdoor living."
+  },
+  {
+   "id": "p42",
+   "name": "Ceramic Table Vase",
+   "category": "Decor",
+   "group": "decor",
+   "price": 2499,
+   "img": "https://images.unsplash.com/photo-1616627981993-5efc0091edea?w=800&q=80&auto=format&fit=crop",
+   "rating": 4.4,
+   "material": "Ceramic",
+   "color": "Off-White",
+   "desc": "A handcrafted ceramic vase to finish a styled tabletop."
+  }
+ ],
+ "BASE_CATEGORIES": [
+  {
+   "id": "office-office-chair",
+   "name": "Office Chair",
+   "group": "office"
+  },
+  {
+   "id": "office-office-desk",
+   "name": "Office Desk",
+   "group": "office"
+  },
+  {
+   "id": "office-office-table",
+   "name": "Office Table",
+   "group": "office"
+  },
+  {
+   "id": "office-conference-table",
+   "name": "Conference Table",
+   "group": "office"
+  },
+  {
+   "id": "office-storage",
+   "name": "Storage",
+   "group": "office"
+  },
+  {
+   "id": "office-side-table",
+   "name": "Side Table",
+   "group": "office"
+  },
+  {
+   "id": "office-reception-desk",
+   "name": "Reception Desk",
+   "group": "office"
+  },
+  {
+   "id": "gaming-gaming-chair",
+   "name": "Gaming Chair",
+   "group": "gaming"
+  },
+  {
+   "id": "gaming-gaming-desk",
+   "name": "Gaming Desk",
+   "group": "gaming"
+  },
+  {
+   "id": "gaming-storage",
+   "name": "Storage",
+   "group": "gaming"
+  },
+  {
+   "id": "sofas-sofa",
+   "name": "Sofa",
+   "group": "sofas"
+  },
+  {
+   "id": "sofas-lounge-chair",
+   "name": "Lounge Chair",
+   "group": "sofas"
+  },
+  {
+   "id": "sofas-accent-chair",
+   "name": "Accent Chair",
+   "group": "sofas"
+  },
+  {
+   "id": "tables-coffee-table",
+   "name": "Coffee Table",
+   "group": "tables"
+  },
+  {
+   "id": "tables-workstation",
+   "name": "Workstation",
+   "group": "tables"
+  },
+  {
+   "id": "tables-dining-table",
+   "name": "Dining Table",
+   "group": "tables"
+  },
+  {
+   "id": "bedroom-bed",
+   "name": "Bed",
+   "group": "bedroom"
+  },
+  {
+   "id": "bedroom-storage",
+   "name": "Storage",
+   "group": "bedroom"
+  },
+  {
+   "id": "bedroom-side-table",
+   "name": "Side Table",
+   "group": "bedroom"
+  },
+  {
+   "id": "dining-dining-chair",
+   "name": "Dining Chair",
+   "group": "dining"
+  },
+  {
+   "id": "lighting-floor-lamp",
+   "name": "Floor Lamp",
+   "group": "lighting"
+  },
+  {
+   "id": "lighting-pendant-light",
+   "name": "Pendant Light",
+   "group": "lighting"
+  },
+  {
+   "id": "outdoor-outdoor-sofa",
+   "name": "Outdoor Sofa",
+   "group": "outdoor"
+  },
+  {
+   "id": "outdoor-outdoor-dining",
+   "name": "Outdoor Dining",
+   "group": "outdoor"
+  },
+  {
+   "id": "decor-decor",
+   "name": "Decor",
+   "group": "decor"
+  }
+ ],
+ "BASE_CATEGORY_LABELS": {
+  "office": "Office",
+  "gaming": "Gaming",
+  "sofas": "Living Room",
+  "tables": "Tables & Workspaces",
+  "bedroom": "Bedroom",
+  "dining": "Dining",
+  "lighting": "Lighting",
+  "outdoor": "Outdoor",
+  "decor": "Decor"
+ }
+}
