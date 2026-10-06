@@ -24,7 +24,7 @@ app.use(helmet({
   crossOriginEmbedderPolicy: false
 }));
 app.use(compression());
-const origins = env.corsOrigin.split(',').map(x => x.trim().replace(/\/$/, '')).filter(Boolean);
+const origins = [...new Set([...env.corsOrigin.split(','), 'https://adilfurnitures.com', 'https://www.adilfurnitures.com'].map(x => x.trim().replace(/\/$/, '')).filter(Boolean))];
 if (!origins.length) console.warn('[config] CORS_ORIGIN is empty - the separate frontend will be blocked by browsers');
 app.use(cors({ origin: (o, cb) => cb(null, !o || origins.includes(o)), credentials: true, maxAge: 86400 }));
 app.use(express.json({ limit: '100kb' }));
